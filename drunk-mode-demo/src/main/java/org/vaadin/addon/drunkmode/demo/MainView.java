@@ -13,9 +13,10 @@ import com.vaadin.flow.component.progressbar.ProgressBar;
 import com.vaadin.flow.component.textfield.NumberField;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
+import org.vaadin.addon.drunkmode.DrunkMode;
 
 @PWA(name = "Nuclear Reactor Control", shortName = "Nuclear Reactor Control")
-//@DrunkMode
+@DrunkMode
 @Route
 public class MainView extends VerticalLayout {
 
